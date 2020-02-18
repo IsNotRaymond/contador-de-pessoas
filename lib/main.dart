@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
       if (_people < 0) {
         _text = 'Mundo invertido?';
       }
-      else if (_people <= 10) {
+      else if (_people < 10) {
         _text = 'Pode entrar';
       }
       else {
